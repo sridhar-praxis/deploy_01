@@ -12,6 +12,6 @@ st.title(f"Hello, {selected_batch} batch!")
 st.write("This is a Streamlit web app.")
 
 var = st.sidebar.slider("How is the josh?", 10, 50, 20, 1)
-st.write("The class Josh is", var)
+st.write("This class' Josh is", var)
 
 st.write(""" use **markdown** """)
