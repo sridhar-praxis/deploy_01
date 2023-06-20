@@ -1,7 +1,7 @@
 # this is a cloned copy from github
 # after this change it will be pushed back to github
 
-### changes made by someone else and pushed here.
+
 import streamlit as st
 
 batch_names = ["Jan 2022", "July 2022", "Jan 2023", "July 2023"]
@@ -15,3 +15,5 @@ var = st.sidebar.slider("How is the josh?", 10, 50, 15, 1)
 st.write("The class Josh is", var)
 
 st.write(""" use **markdown** """)
+
+#comments branch changes
